@@ -1,0 +1,23 @@
+header {
+    border-bottom: 2px solid #43CD99;
+    box-shadow: 0px 4px 10px rgba(25, 255, 94, 0.75);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+header ul a {
+    text-decoration: none;
+}
+
+header ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 1rem;
+}
+
+/*897 se rompe el header, implementar boton menu para dispositivos pequeños y o flex colum*/

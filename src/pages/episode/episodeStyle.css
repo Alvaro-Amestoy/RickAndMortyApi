@@ -1,0 +1,9 @@
+.all-articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#article-episode {
+    border-radius: 10px ;
+    padding: 1rem;
+}
